@@ -127,6 +127,11 @@ function handleKeyPress(event) {
     return;
   }
 
+  // Ignore if any modifier keys are pressed
+  if (event.ctrlKey || event.metaKey || event.altKey) {
+    return;
+  }
+
   if (event.key === "Enter") {
     event.preventDefault();
     openCurrentPost();
