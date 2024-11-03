@@ -8,5 +8,10 @@
       "matches": ["https://bsky.app/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bluesky-keyboard-shortcuts@rictic.com"
+    }
+}
 }
