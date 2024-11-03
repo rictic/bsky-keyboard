@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Bluesky Keyboard Shortcuts",
+  "version": "1.0",
+  "description": "Adds keyboard shortcuts to Bluesky",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://bsky.app/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://bsky.app/*"],
+      "js": ["content.js"]
+    }
+  ]
+} 
